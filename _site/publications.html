@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Publications</title>
+
+<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<style type="text/css">
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 41px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h2 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h3 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h4 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h5 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h6 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">EvoGen@Bielefeld</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">The lab</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="publications.html">Publications</a>
+</li>
+<li>
+  <a href="publications.html">Journal club</a>
+</li>
+<li>
+  <a href="publications.html">Open positions</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="mailto:&lt;toni.gossmann@gmail.com&gt;">
+    <span class="fas fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://tgossmann.github.com">
+    <span class="fas fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Publications</h1>
+
+</div>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-Afanasyeva2018" class="csl-entry">
+Afanasyeva, Arina, Mathias Bockwoldt, Christopher R Cooney, Ines Heiland, and Gossmann, Toni I. 2018. <span>“<span>H</span>uman Long Intrinsically Disordered Protein Regions Are Frequent Targets of Positive Selection.”</span> <em>Genome Research</em> 28: 975–82. <a href="https://doi.org/10.1101/gr.232645.117">https://doi.org/10.1101/gr.232645.117</a>.
+</div>
+<div id="ref-Bockwoldt2019" class="csl-entry">
+Bockwoldt, Mathias, Dorothée Houry, Marc Niere, Gossmann, Toni I., Ines Reinartz, Alexander Schug, Mathias Ziegler, and Ines Heiland. 2019. <span>“Identification of Evolutionary and Kinetic Drivers of NAD-Dependent Signaling.”</span> <em>Proceedings of the National Academy of Sciences of the United States of America</em>. <a href="https://doi.org/10.1073/pnas.1902346116">https://doi.org/10.1073/pnas.1902346116</a>.
+</div>
+<div id="ref-Corcoran2017" class="csl-entry">
+Corcoran, Pádraic, Gossmann, Toni I, Henry J Barton, Jon Slate, and Kai Zeng. 2017. <span>“<span>D</span>eterminants of the Efficacy of Natural Selection on Coding and Noncoding Variability in Two Passerine Species.”</span> <em>Genome Biology and Evolution</em>.
+</div>
+<div id="ref-deFigueiredo2011" class="csl-entry">
+de Figueiredo, Luis F., Gossmann, Toni I, Mathias Ziegler, and Stefan Schuster. 2011. <span>“<span>P</span>athway Analysis of <span>NAD</span>+ Metabolism.”</span> <em>Biochemical Journal</em> 439: 341–48. <a href="https://doi.org/10.1042/BJ20110320">https://doi.org/10.1042/BJ20110320</a>.
+</div>
+<div id="ref-Gossmann2016" class="csl-entry">
+Gossmann, Toni I., Dounia Saleh, Marc W. Schmid, Michael A. Spence, and Karl J. Schmid. 2016. <span>“Transcriptomes of Plant Gametophytes Have a Higher Proportion of Rapidly Evolving and Young Genes Than Sporophytes.”</span> <em>Molecular Biology and Evolution</em> 33: 1669–78. <a href="https://doi.org/10.1093/molbev/msw044">https://doi.org/10.1093/molbev/msw044</a>.
+</div>
+<div id="ref-Gossmann2012" class="csl-entry">
+Gossmann, Toni I, Peter D. Keightley, and Adam Eyre-Walker. 2012. <span>“<span>T</span>he Effect of Variation in the Effective Population Size on the Rate of Adaptive Molecular Evolution in Eukaryotes.”</span> <em>Genome Biology and Evolution</em> 4: 658–67. <a href="https://doi.org/10.1093/gbe/evs027">https://doi.org/10.1093/gbe/evs027</a>.
+</div>
+<div id="ref-Gossmann2014a" class="csl-entry">
+Gossmann, Toni I, Anna W Santure, Ben C Sheldon, Jon Slate, and Kai Zeng. 2014. <span>“<span>H</span>ighly Variable Recombinational Landscape Modulates Efficacy of Natural Selection in Birds.”</span> <em>Genome Biology and Evolution</em> 6: 2061–75. <a href="https://doi.org/10.1093/gbe/evu157">https://doi.org/10.1093/gbe/evu157</a>.
+</div>
+<div id="ref-Gossmann2011" class="csl-entry">
+Gossmann, Toni I, and Karl J. Schmid. 2011. <span>“<span>S</span>election-Driven Divergence After Gene Duplication in <span>A</span>rabidopsis Thaliana.”</span> <em>Journal of Molecular Evolution</em> 73: 153–65. <a href="https://doi.org/10.1007/s00239-011-9463-2">https://doi.org/10.1007/s00239-011-9463-2</a>.
+</div>
+<div id="ref-Gossmann2014c" class="csl-entry">
+Gossmann, Toni I, Marc W. Schmid, Ueli Grossniklaus, and Karl J. Schmid. 2014. <span>“<span>S</span>election-Driven Evolution of Sex-Biased Genes Is Consistent with Sexual Selection in <span>A</span>rabidopsis Thaliana.”</span> <em>Molecular Biology and Evolution</em> 31: 574–83. <a href="https://doi.org/10.1093/molbev/mst226">https://doi.org/10.1093/molbev/mst226</a>.
+</div>
+<div id="ref-Gossmann2018" class="csl-entry">
+Gossmann, Toni I, Achchuthan Shanmugasundram, Stefan Börno, Ludovic Duvaux, Christophe Lemaire, Heiner Kuhl, Sven Klages, et al. 2018. <span>“<span>T</span>he <span>R</span>esponse to <span>P</span>ast <span>C</span>limate <span>P</span>erturbations <span>E</span>xplains <span>E</span>xtremely <span>L</span>ow <span>G</span>enetic <span>D</span>iversity in the <span>G</span>enome of an <span>A</span>bundant <span>I</span>ce-<span>A</span>ge <span>R</span>emnant, the <span>A</span>lpine <span>M</span>armot.”</span> SSRN. <a href="https://ssrn.com/abstract=3219259">https://ssrn.com/abstract=3219259</a>.
+</div>
+<div id="ref-Gossmann2010" class="csl-entry">
+Gossmann, Toni I, Bao-Hua Song, Aaron J. Windsor, Thomas Mitchell-Olds, Christopher J. Dixon, Maxim V. Kapralov, Dmitry A. Filatov, and Adam Eyre-Walker. 2010. <span>“<span>G</span>enome Wide Analyses Reveal Little Evidence for Adaptive Evolution in Many Plant Species.”</span> <em>Molecular Biology and Evolution</em> 27: 1822–32. <a href="https://doi.org/10.1093/molbev/msq079">https://doi.org/10.1093/molbev/msq079</a>.
+</div>
+<div id="ref-Gossmann2014b" class="csl-entry">
+Gossmann, Toni I, David Waxman, and Adam Eyre-Walker. 2014. <span>“<span>F</span>luctuating Selection Models and <span>M</span>c<span>D</span>onald-<span>K</span>reitman Type Analyses.”</span> <em>PLoS One</em> 9: e84540. <a href="https://doi.org/10.1371/journal.pone.0084540">https://doi.org/10.1371/journal.pone.0084540</a>.
+</div>
+<div id="ref-Gossmann2011a" class="csl-entry">
+Gossmann, Toni I, Megan Woolfit, and Adam Eyre-Walker. 2011. <span>“<span>Q</span>uantifying the Variation in the Effective Population Size Within a Genome.”</span> <em>Genetics</em> 189: 1389–1402. <a href="https://doi.org/10.1534/genetics.111.132654">https://doi.org/10.1534/genetics.111.132654</a>.
+</div>
+<div id="ref-Gossmann2014" class="csl-entry">
+Gossmann, Toni I, and Mathias Ziegler. 2014. <span>“<span>S</span>equence Divergence and Diversity Suggests Ongoing Functional Diversification of Vertebrate <span>NAD</span> Metabolism.”</span> <em>DNA Repair</em> 23: 39–48. <a href="https://doi.org/10.1016/j.dnarep.2014.07.005">https://doi.org/10.1016/j.dnarep.2014.07.005</a>.
+</div>
+<div id="ref-Gossmann2012a" class="csl-entry">
+Gossmann, Toni I, Mathias Ziegler, Pål Puntervoll, Luis F. de Figueiredo, Stefan Schuster, and Ines Heiland. 2012a. <span>“<span>NAD</span>(+) Biosynthesis and Salvage–a Phylogenetic Perspective.”</span> <em>FEBS Journal</em> 279: 3355–63. <a href="https://doi.org/10.1111/j.1742-4658.2012.08559.x">https://doi.org/10.1111/j.1742-4658.2012.08559.x</a>.
+</div>
+<div id="ref-gossmann2012two" class="csl-entry">
+———. 2012b. <span>“<span>T</span>wo New Perspectives on <span>NAD</span> Metabolism.”</span> <em>GCB 2012 Highlight Abstracts</em>, 5.
+</div>
+<div id="ref-Hildebrand2019" class="csl-entry">
+Hildebrand, Falk, Lucas Moitinho-Silva, Sonja Blasche, Martin T Jahn, Toni I Gossmann, Jaime Huerta-Cepas, Rajna Hercog, et al. 2019. <span>“<span>A</span>ntibiotics-Induced Monodominance of a Novel Gut Bacterial Order.”</span> <em>Gut</em>, gutjnl-2018-317715. <a href="https://doi.org/10.1136/gutjnl-2018-317715">https://doi.org/10.1136/gutjnl-2018-317715</a>.
+</div>
+<div id="ref-Kappei2017" class="csl-entry">
+Kappei, Dennis, Marion Scheibe, Maciej Paszkowski-Rogacz, Alina Bluhm, Gossmann, Toni I., Sabrina Dietz, Mario Dejung, et al. 2017. <span>“<span>P</span>hylointeractomics Reconstructs Functional Evolution of Protein Binding.”</span> <em>Nature Communications</em> 8: 14334. <a href="https://doi.org/10.1038/ncomms14334">https://doi.org/10.1038/ncomms14334</a>.
+</div>
+<div id="ref-Karr2019" class="csl-entry">
+Karr, Timothy L., Helen Southern, Matthew A. Rosenow, Toni I. Gossmann, and Rhonda R. Snook. 2019. <span>“<span>T</span>he Old and the New: Discovery Proteomics Identifies Putative Novel Seminal Fluid Proteins in <span>D</span>rosophila.”</span> <em>Molecular <span>&amp;</span> Cellular Proteomics</em>, mcp.RA118.001098. <a href="https://doi.org/10.1074/mcp.ra118.001098">https://doi.org/10.1074/mcp.ra118.001098</a>.
+</div>
+<div id="ref-Kinsella2019" class="csl-entry">
+Kinsella, Cormac M., Francisco J. Ruiz-Ruano, Anne-Marie Dion-Côté, Alexander J. Charles, Toni I. Gossmann, Josefa Cabrero, Dennis Kappei, et al. 2019. <span>“Programmed <span>DNA</span> Elimination of Germline Development Genes in Songbirds.”</span> <em>Nature Communications</em> 10 (1). <a href="https://doi.org/10.1038/s41467-019-13427-4">https://doi.org/10.1038/s41467-019-13427-4</a>.
+</div>
+<div id="ref-Laine2019" class="csl-entry">
+Laine, Veronika N, Gossmann, Toni I, Kees van Oers, Marcel E Visser, and Martien A M Groenen. 2019. <span>“<span>E</span>xploring the Unmapped <span>DNA</span> and <span>RNA</span> Reads in a Songbird Genome.”</span> <em>BMC Genomics</em> 20: 19. <a href="https://doi.org/10.1186/s12864-018-5378-2">https://doi.org/10.1186/s12864-018-5378-2</a>.
+</div>
+<div id="ref-Laine2016" class="csl-entry">
+Laine, Veronika N, Gossmann, Toni I, Kyle M Schachtschneider, Colin J Garroway, Ole Madsen, Koen J F Verhoeven, Victor de Jager, et al. 2016. <span>“<span>E</span>volutionary Signals of Selection on Cognition from the Great Tit Genome and Methylome.”</span> <em>Nature Communications</em> 7: 10474. <a href="https://doi.org/10.1038/ncomms10474">https://doi.org/10.1038/ncomms10474</a>.
+</div>
+<div id="ref-Lau2010" class="csl-entry">
+Lau, Corinna, Christian Dölle, Gossmann, Toni I, Line Agledal, Marc Niere, and Mathias Ziegler. 2010. <span>“<span>I</span>soform-Specific Targeting and Interaction Domains in Human Nicotinamide Mononucleotide Adenylyltransferases.”</span> <em>Journal of Biological Chemistry</em> 285: 18868–76. <a href="https://doi.org/10.1074/jbc.M110.107631">https://doi.org/10.1074/jbc.M110.107631</a>.
+</div>
+<div id="ref-Niere2018" class="csl-entry">
+Niere, Marc, Ines Heiland, Falk Hildebrand, Veronika N. Laine, Nicola Hemmings, Dennis Kappei, Alison Wright, Mathias Ziegler, and Gossmann, Toni I. n.d. <span>“<span>D</span>e-Novo Synthesis of <span>NAD</span> Is Facilitated by <span>QAPRT</span> in Birds.”</span>
+</div>
+<div id="ref-Shafiey2017" class="csl-entry">
+Shafiey, Hassan, Gossmann, Toni I, and David Waxman. 2017. <span>“<span>E</span>volutionary Control: <span>T</span>argeted Change of Allele Frequencies in Natural Populations Using Externally Directed Evolution.”</span> <em>Journal of Theoretical Biology</em> 419: 362–74. <a href="https://doi.org/10.1016/j.jtbi.2017.01.023">https://doi.org/10.1016/j.jtbi.2017.01.023</a>.
+</div>
+<div id="ref-Gossmann2018b" class="csl-entry">
+Toni I. Gossmann, Mathias Bockwoldt, Lilith Diringer, Friedrich Schwarz, and Vic-Fabienne Schumann. 2018. <span>“<span>E</span>vidence for <span>S</span>trong <span>F</span>ixation <span>B</span>ias at 4-Fold <span>D</span>egenerate <span>S</span>ites <span>A</span>cross <span>G</span>enes in the <span>G</span>reat <span>T</span>it <span>G</span>enome.”</span> <em>Frontiers in Ecology and Evolution</em> 6. <a href="https://doi.org/10.3389/fevo.2018.00203">https://doi.org/10.3389/fevo.2018.00203</a>.
+</div>
+<div id="ref-Gossmann2020" class="csl-entry">
+Toni I. Gossmann, and Markus Ralser. 2020. <span>“Marmota Marmota.”</span> <em>Trends in Genetics</em>. <a href="https://doi.org/10.1016/j.tig.2020.01.006">https://doi.org/10.1016/j.tig.2020.01.006</a>.
+</div>
+<div id="ref-Gossmann2019" class="csl-entry">
+Toni I. Gossmann, Achchuthan Shanmugasundram, Stefan Börno, Ludovic Duvaux, Christophe Lemaire, Heiner Kuhl, Sven Klages, et al. 2019. <span>“<span>I</span>ce-<span>A</span>ge <span>C</span>limate <span>A</span>daptations <span>T</span>rap the <span>A</span>lpine <span>M</span>armot in a <span>S</span>tate of <span>L</span>ow <span>G</span>enetic <span>D</span>iversity.”</span> <em>Current Biology</em>. <a href="https://doi.org/10.1016/j.cub.2019.04.020">https://doi.org/10.1016/j.cub.2019.04.020</a>.
+</div>
+<div id="ref-Yusuf_2020" class="csl-entry">
+Yusuf, Leeban, Matthew C. Heatley, Joseph P. G. Palmer, Henry J. Barton, Christopher R. Cooney, and Toni I. Gossmann. 2020. <span>“Noncoding Regions Underpin Avian Bill Shape Diversification at Macroevolutionary Scales.”</span> <em>Genome Research</em>. <a href="https://doi.org/10.1101/gr.255752.119">https://doi.org/10.1101/gr.255752.119</a>.
+</div>
+<div id="ref-Zhao2016" class="csl-entry">
+Zhao, Lei, Toni I Gossmann, and David Waxman. 2016. <span>“<span>A</span> Modified <span>W</span>right-<span>F</span>isher Model That Incorporates <span>N</span>e: <span>A</span> Variant of the Standard Model with Increased Biological Realism and Reduced Computational Complexity.”</span> <em>Journal of Theoretical Biology</em> 393: 218–28. <a href="https://doi.org/10.1016/j.jtbi.2016.01.002">https://doi.org/10.1016/j.jtbi.2016.01.002</a>.
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
