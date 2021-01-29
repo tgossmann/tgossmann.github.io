@@ -16,7 +16,7 @@
 <script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -137,33 +137,33 @@ summary {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 41px;
+  padding-top: 51px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 46px;
-  margin-top: -46px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h2 {
-  padding-top: 46px;
-  margin-top: -46px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h3 {
-  padding-top: 46px;
-  margin-top: -46px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h4 {
-  padding-top: 46px;
-  margin-top: -46px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h5 {
-  padding-top: 46px;
-  margin-top: -46px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .section h6 {
-  padding-top: 46px;
-  margin-top: -46px;
+  padding-top: 56px;
+  margin-top: -56px;
 }
 .dropdown-submenu {
   position: relative;
@@ -302,36 +302,86 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">EvoGen@Bielefeld</a>
+      <a class="navbar-brand" href="index.html">EvoGen</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="index.html">The lab</a>
+  <a href="index.html">
+    <span class="fas fa-home"></span>
+     
+    The lab
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fas fa-flask"></span>
+     
+    Research
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="research.html">Topics</a>
+    </li>
+    <li>
+      <a href="collaborators.html">Collaborators</a>
+    </li>
+  </ul>
 </li>
 <li>
-  <a href="research.html">Research</a>
+  <a href="publications.html">
+    <span class="fas fa-book"></span>
+     
+    Publications
+  </a>
 </li>
 <li>
-  <a href="publications.html">Publications</a>
+  <a href="jc.html">
+    <span class="fas fa-newspaper"></span>
+     
+    Journal club
+  </a>
 </li>
 <li>
-  <a href="publications.html">Journal club</a>
+  <a href="open.html">
+    <span class="fas fa-graduation-cap"></span>
+     
+    Join US
+  </a>
 </li>
-<li>
-  <a href="publications.html">Open positions</a>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fas fa-users"></span>
+     
+    Team
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-header">PI</li>
+    <li>
+      <a href="gossmann.html">Gossmann</a>
+    </li>
+    <li class="divider"></li>
+    <li class="dropdown-header">Post-doc</li>
+    <li class="dropdown-header">PhD</li>
+    <li class="dropdown-header">Bachelor/Master</li>
+    <li class="dropdown-header">Project students</li>
+  </ul>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="mailto:&lt;toni.gossmann@gmail.com&gt;">
-    <span class="fas fa-envelope fa-lg"></span>
+    <span class="fas fa-at"></span>
      
   </a>
 </li>
 <li>
-  <a href="http://tgossmann.github.com">
-    <span class="fas fa-github fa-lg"></span>
+  <a href="contact.html">
+    <span class="fas fa-envelope fa-lg"></span>
      
   </a>
 </li>
@@ -349,99 +399,104 @@ $(document).ready(function () {
 </div>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent">
-<div id="ref-Afanasyeva2018" class="csl-entry">
-Afanasyeva, Arina, Mathias Bockwoldt, Christopher R Cooney, Ines Heiland, and Gossmann, Toni I. 2018. <span>“<span>H</span>uman Long Intrinsically Disordered Protein Regions Are Frequent Targets of Positive Selection.”</span> <em>Genome Research</em> 28: 975–82. <a href="https://doi.org/10.1101/gr.232645.117">https://doi.org/10.1101/gr.232645.117</a>.
-</div>
-<div id="ref-Bockwoldt2019" class="csl-entry">
-Bockwoldt, Mathias, Dorothée Houry, Marc Niere, Gossmann, Toni I., Ines Reinartz, Alexander Schug, Mathias Ziegler, and Ines Heiland. 2019. <span>“Identification of Evolutionary and Kinetic Drivers of NAD-Dependent Signaling.”</span> <em>Proceedings of the National Academy of Sciences of the United States of America</em>. <a href="https://doi.org/10.1073/pnas.1902346116">https://doi.org/10.1073/pnas.1902346116</a>.
-</div>
-<div id="ref-Corcoran2017" class="csl-entry">
-Corcoran, Pádraic, Gossmann, Toni I, Henry J Barton, Jon Slate, and Kai Zeng. 2017. <span>“<span>D</span>eterminants of the Efficacy of Natural Selection on Coding and Noncoding Variability in Two Passerine Species.”</span> <em>Genome Biology and Evolution</em>.
-</div>
-<div id="ref-deFigueiredo2011" class="csl-entry">
-de Figueiredo, Luis F., Gossmann, Toni I, Mathias Ziegler, and Stefan Schuster. 2011. <span>“<span>P</span>athway Analysis of <span>NAD</span>+ Metabolism.”</span> <em>Biochemical Journal</em> 439: 341–48. <a href="https://doi.org/10.1042/BJ20110320">https://doi.org/10.1042/BJ20110320</a>.
-</div>
-<div id="ref-Gossmann2016" class="csl-entry">
-Gossmann, Toni I., Dounia Saleh, Marc W. Schmid, Michael A. Spence, and Karl J. Schmid. 2016. <span>“Transcriptomes of Plant Gametophytes Have a Higher Proportion of Rapidly Evolving and Young Genes Than Sporophytes.”</span> <em>Molecular Biology and Evolution</em> 33: 1669–78. <a href="https://doi.org/10.1093/molbev/msw044">https://doi.org/10.1093/molbev/msw044</a>.
+<p><strong>Our Latest</strong></p>
+<p>Noncoding regions underpin avian bill shape diversification at macroevolutionary scales by Yusuf et al. 2020 in <em>Genome Research</em>. See also blog <a href="https://avianhybrids.wordpress.com/2020/09/26/non-coding-dna-drives-the-evolution-of-avian-beak-morphology/">entry</a> in the avianhybrids blog!</p>
+<p><strong>All publications</strong></p>
+<p>If you cannot find the paper you are looking for, please send an Email (upper right corner).</p>
+<div id="refs" class="references csl-bib-body hanging-indent" line-spacing="2">
+<div id="ref-Gossmann2019" class="csl-entry">
+1. Toni I. Gossmann, Shanmugasundram, A., Börno, S., Duvaux, L., Lemaire, C., Kuhl, H., Klages, S., Roberts, L. D., Schade, S., Gostner, J. M., Hildebrand, F., Vowinckel, J., Bichet, C., Mülleder, M., Calvani, E., Zelezniak, A., Griffin, J. L., Bork, P., Allaine, D., … Ralser, M. (2019). <span>I</span>ce-<span>A</span>ge <span>C</span>limate <span>A</span>daptations <span>T</span>rap the <span>A</span>lpine <span>M</span>armot in a <span>S</span>tate of <span>L</span>ow <span>G</span>enetic <span>D</span>iversity. <em>Current Biology</em>. <a href="https://doi.org/10.1016/j.cub.2019.04.020">https://doi.org/10.1016/j.cub.2019.04.020</a>
 </div>
 <div id="ref-Gossmann2012" class="csl-entry">
-Gossmann, Toni I, Peter D. Keightley, and Adam Eyre-Walker. 2012. <span>“<span>T</span>he Effect of Variation in the Effective Population Size on the Rate of Adaptive Molecular Evolution in Eukaryotes.”</span> <em>Genome Biology and Evolution</em> 4: 658–67. <a href="https://doi.org/10.1093/gbe/evs027">https://doi.org/10.1093/gbe/evs027</a>.
+2. Gossmann, Toni I, Keightley, P. D., &amp; Eyre-Walker, A. (2012). <span>T</span>he effect of variation in the effective population size on the rate of adaptive molecular evolution in eukaryotes. <em>Genome Biology and Evolution</em>, <em>4</em>, 658–667. <a href="https://doi.org/10.1093/gbe/evs027">https://doi.org/10.1093/gbe/evs027</a>
 </div>
 <div id="ref-Gossmann2014a" class="csl-entry">
-Gossmann, Toni I, Anna W Santure, Ben C Sheldon, Jon Slate, and Kai Zeng. 2014. <span>“<span>H</span>ighly Variable Recombinational Landscape Modulates Efficacy of Natural Selection in Birds.”</span> <em>Genome Biology and Evolution</em> 6: 2061–75. <a href="https://doi.org/10.1093/gbe/evu157">https://doi.org/10.1093/gbe/evu157</a>.
+3. Gossmann, Toni I, Santure, A. W., Sheldon, B. C., Slate, J., &amp; Zeng, K. (2014). <span>H</span>ighly variable recombinational landscape modulates efficacy of natural selection in birds. <em>Genome Biology and Evolution</em>, <em>6</em>, 2061–2075. <a href="https://doi.org/10.1093/gbe/evu157">https://doi.org/10.1093/gbe/evu157</a>
 </div>
 <div id="ref-Gossmann2011" class="csl-entry">
-Gossmann, Toni I, and Karl J. Schmid. 2011. <span>“<span>S</span>election-Driven Divergence After Gene Duplication in <span>A</span>rabidopsis Thaliana.”</span> <em>Journal of Molecular Evolution</em> 73: 153–65. <a href="https://doi.org/10.1007/s00239-011-9463-2">https://doi.org/10.1007/s00239-011-9463-2</a>.
+4. Gossmann, Toni I, &amp; Schmid, K. J. (2011). <span>S</span>election-driven divergence after gene duplication in <span>A</span>rabidopsis thaliana. <em>Journal of Molecular Evolution</em>, <em>73</em>, 153–165. <a href="https://doi.org/10.1007/s00239-011-9463-2">https://doi.org/10.1007/s00239-011-9463-2</a>
 </div>
 <div id="ref-Gossmann2014c" class="csl-entry">
-Gossmann, Toni I, Marc W. Schmid, Ueli Grossniklaus, and Karl J. Schmid. 2014. <span>“<span>S</span>election-Driven Evolution of Sex-Biased Genes Is Consistent with Sexual Selection in <span>A</span>rabidopsis Thaliana.”</span> <em>Molecular Biology and Evolution</em> 31: 574–83. <a href="https://doi.org/10.1093/molbev/mst226">https://doi.org/10.1093/molbev/mst226</a>.
+5. Gossmann, Toni I, Schmid, M. W., Grossniklaus, U., &amp; Schmid, K. J. (2014). <span>S</span>election-driven evolution of sex-biased genes is consistent with sexual selection in <span>A</span>rabidopsis thaliana. <em>Molecular Biology and Evolution</em>, <em>31</em>, 574–583. <a href="https://doi.org/10.1093/molbev/mst226">https://doi.org/10.1093/molbev/mst226</a>
 </div>
 <div id="ref-Gossmann2018" class="csl-entry">
-Gossmann, Toni I, Achchuthan Shanmugasundram, Stefan Börno, Ludovic Duvaux, Christophe Lemaire, Heiner Kuhl, Sven Klages, et al. 2018. <span>“<span>T</span>he <span>R</span>esponse to <span>P</span>ast <span>C</span>limate <span>P</span>erturbations <span>E</span>xplains <span>E</span>xtremely <span>L</span>ow <span>G</span>enetic <span>D</span>iversity in the <span>G</span>enome of an <span>A</span>bundant <span>I</span>ce-<span>A</span>ge <span>R</span>emnant, the <span>A</span>lpine <span>M</span>armot.”</span> SSRN. <a href="https://ssrn.com/abstract=3219259">https://ssrn.com/abstract=3219259</a>.
+6. Gossmann, Toni I, Shanmugasundram, A., Börno, S., Duvaux, L., Lemaire, C., Kuhl, H., Klages, S., Roberts, L. D., Schade, S., Gostner, J. M., Hildebrand, F., Vowinckel, J., Bichet, C., Mülleder, M., Calvani, E., Zelezniak, A., Griffin, J. L., Bork, P., Allaine, D., … Ralser, M. (2018). <em><span>T</span>he <span>R</span>esponse to <span>P</span>ast <span>C</span>limate <span>P</span>erturbations <span>E</span>xplains <span>E</span>xtremely <span>L</span>ow <span>G</span>enetic <span>D</span>iversity in the <span>G</span>enome of an <span>A</span>bundant <span>I</span>ce-<span>A</span>ge <span>R</span>emnant, the <span>A</span>lpine <span>M</span>armot</em>. SSRN. <a href="https://ssrn.com/abstract=3219259">https://ssrn.com/abstract=3219259</a>
 </div>
 <div id="ref-Gossmann2010" class="csl-entry">
-Gossmann, Toni I, Bao-Hua Song, Aaron J. Windsor, Thomas Mitchell-Olds, Christopher J. Dixon, Maxim V. Kapralov, Dmitry A. Filatov, and Adam Eyre-Walker. 2010. <span>“<span>G</span>enome Wide Analyses Reveal Little Evidence for Adaptive Evolution in Many Plant Species.”</span> <em>Molecular Biology and Evolution</em> 27: 1822–32. <a href="https://doi.org/10.1093/molbev/msq079">https://doi.org/10.1093/molbev/msq079</a>.
+7. Gossmann, Toni I, Song, B.-H., Windsor, A. J., Mitchell-Olds, T., Dixon, C. J., Kapralov, M. V., Filatov, D. A., &amp; Eyre-Walker, A. (2010). <span>G</span>enome wide analyses reveal little evidence for adaptive evolution in many plant species. <em>Molecular Biology and Evolution</em>, <em>27</em>, 1822–1832. <a href="https://doi.org/10.1093/molbev/msq079">https://doi.org/10.1093/molbev/msq079</a>
 </div>
 <div id="ref-Gossmann2014b" class="csl-entry">
-Gossmann, Toni I, David Waxman, and Adam Eyre-Walker. 2014. <span>“<span>F</span>luctuating Selection Models and <span>M</span>c<span>D</span>onald-<span>K</span>reitman Type Analyses.”</span> <em>PLoS One</em> 9: e84540. <a href="https://doi.org/10.1371/journal.pone.0084540">https://doi.org/10.1371/journal.pone.0084540</a>.
+8. Gossmann, Toni I, Waxman, D., &amp; Eyre-Walker, A. (2014). <span>F</span>luctuating selection models and <span>M</span>c<span>D</span>onald-<span>K</span>reitman type analyses. <em>PLoS One</em>, <em>9</em>, e84540. <a href="https://doi.org/10.1371/journal.pone.0084540">https://doi.org/10.1371/journal.pone.0084540</a>
 </div>
 <div id="ref-Gossmann2011a" class="csl-entry">
-Gossmann, Toni I, Megan Woolfit, and Adam Eyre-Walker. 2011. <span>“<span>Q</span>uantifying the Variation in the Effective Population Size Within a Genome.”</span> <em>Genetics</em> 189: 1389–1402. <a href="https://doi.org/10.1534/genetics.111.132654">https://doi.org/10.1534/genetics.111.132654</a>.
+9. Gossmann, Toni I, Woolfit, M., &amp; Eyre-Walker, A. (2011). <span>Q</span>uantifying the variation in the effective population size within a genome. <em>Genetics</em>, <em>189</em>, 1389–1402. <a href="https://doi.org/10.1534/genetics.111.132654">https://doi.org/10.1534/genetics.111.132654</a>
 </div>
 <div id="ref-Gossmann2014" class="csl-entry">
-Gossmann, Toni I, and Mathias Ziegler. 2014. <span>“<span>S</span>equence Divergence and Diversity Suggests Ongoing Functional Diversification of Vertebrate <span>NAD</span> Metabolism.”</span> <em>DNA Repair</em> 23: 39–48. <a href="https://doi.org/10.1016/j.dnarep.2014.07.005">https://doi.org/10.1016/j.dnarep.2014.07.005</a>.
+10. Gossmann, Toni I, &amp; Ziegler, M. (2014). <span>S</span>equence divergence and diversity suggests ongoing functional diversification of vertebrate <span>NAD</span> metabolism. <em>DNA Repair</em>, <em>23</em>, 39–48. <a href="https://doi.org/10.1016/j.dnarep.2014.07.005">https://doi.org/10.1016/j.dnarep.2014.07.005</a>
 </div>
 <div id="ref-Gossmann2012a" class="csl-entry">
-Gossmann, Toni I, Mathias Ziegler, Pål Puntervoll, Luis F. de Figueiredo, Stefan Schuster, and Ines Heiland. 2012a. <span>“<span>NAD</span>(+) Biosynthesis and Salvage–a Phylogenetic Perspective.”</span> <em>FEBS Journal</em> 279: 3355–63. <a href="https://doi.org/10.1111/j.1742-4658.2012.08559.x">https://doi.org/10.1111/j.1742-4658.2012.08559.x</a>.
+11. Gossmann, Toni I, Ziegler, M., Puntervoll, P., de Figueiredo, L. F., Schuster, S., &amp; Heiland, I. (2012). <span>NAD</span>(+) biosynthesis and salvage–a phylogenetic perspective. <em>FEBS Journal</em>, <em>279</em>, 3355–3363. <a href="https://doi.org/10.1111/j.1742-4658.2012.08559.x">https://doi.org/10.1111/j.1742-4658.2012.08559.x</a>
 </div>
 <div id="ref-gossmann2012two" class="csl-entry">
-———. 2012b. <span>“<span>T</span>wo New Perspectives on <span>NAD</span> Metabolism.”</span> <em>GCB 2012 Highlight Abstracts</em>, 5.
-</div>
-<div id="ref-Hildebrand2019" class="csl-entry">
-Hildebrand, Falk, Lucas Moitinho-Silva, Sonja Blasche, Martin T Jahn, Toni I Gossmann, Jaime Huerta-Cepas, Rajna Hercog, et al. 2019. <span>“<span>A</span>ntibiotics-Induced Monodominance of a Novel Gut Bacterial Order.”</span> <em>Gut</em>, gutjnl-2018-317715. <a href="https://doi.org/10.1136/gutjnl-2018-317715">https://doi.org/10.1136/gutjnl-2018-317715</a>.
-</div>
-<div id="ref-Kappei2017" class="csl-entry">
-Kappei, Dennis, Marion Scheibe, Maciej Paszkowski-Rogacz, Alina Bluhm, Gossmann, Toni I., Sabrina Dietz, Mario Dejung, et al. 2017. <span>“<span>P</span>hylointeractomics Reconstructs Functional Evolution of Protein Binding.”</span> <em>Nature Communications</em> 8: 14334. <a href="https://doi.org/10.1038/ncomms14334">https://doi.org/10.1038/ncomms14334</a>.
-</div>
-<div id="ref-Karr2019" class="csl-entry">
-Karr, Timothy L., Helen Southern, Matthew A. Rosenow, Toni I. Gossmann, and Rhonda R. Snook. 2019. <span>“<span>T</span>he Old and the New: Discovery Proteomics Identifies Putative Novel Seminal Fluid Proteins in <span>D</span>rosophila.”</span> <em>Molecular <span>&amp;</span> Cellular Proteomics</em>, mcp.RA118.001098. <a href="https://doi.org/10.1074/mcp.ra118.001098">https://doi.org/10.1074/mcp.ra118.001098</a>.
-</div>
-<div id="ref-Kinsella2019" class="csl-entry">
-Kinsella, Cormac M., Francisco J. Ruiz-Ruano, Anne-Marie Dion-Côté, Alexander J. Charles, Toni I. Gossmann, Josefa Cabrero, Dennis Kappei, et al. 2019. <span>“Programmed <span>DNA</span> Elimination of Germline Development Genes in Songbirds.”</span> <em>Nature Communications</em> 10 (1). <a href="https://doi.org/10.1038/s41467-019-13427-4">https://doi.org/10.1038/s41467-019-13427-4</a>.
-</div>
-<div id="ref-Laine2019" class="csl-entry">
-Laine, Veronika N, Gossmann, Toni I, Kees van Oers, Marcel E Visser, and Martien A M Groenen. 2019. <span>“<span>E</span>xploring the Unmapped <span>DNA</span> and <span>RNA</span> Reads in a Songbird Genome.”</span> <em>BMC Genomics</em> 20: 19. <a href="https://doi.org/10.1186/s12864-018-5378-2">https://doi.org/10.1186/s12864-018-5378-2</a>.
-</div>
-<div id="ref-Laine2016" class="csl-entry">
-Laine, Veronika N, Gossmann, Toni I, Kyle M Schachtschneider, Colin J Garroway, Ole Madsen, Koen J F Verhoeven, Victor de Jager, et al. 2016. <span>“<span>E</span>volutionary Signals of Selection on Cognition from the Great Tit Genome and Methylome.”</span> <em>Nature Communications</em> 7: 10474. <a href="https://doi.org/10.1038/ncomms10474">https://doi.org/10.1038/ncomms10474</a>.
-</div>
-<div id="ref-Lau2010" class="csl-entry">
-Lau, Corinna, Christian Dölle, Gossmann, Toni I, Line Agledal, Marc Niere, and Mathias Ziegler. 2010. <span>“<span>I</span>soform-Specific Targeting and Interaction Domains in Human Nicotinamide Mononucleotide Adenylyltransferases.”</span> <em>Journal of Biological Chemistry</em> 285: 18868–76. <a href="https://doi.org/10.1074/jbc.M110.107631">https://doi.org/10.1074/jbc.M110.107631</a>.
-</div>
-<div id="ref-Niere2018" class="csl-entry">
-Niere, Marc, Ines Heiland, Falk Hildebrand, Veronika N. Laine, Nicola Hemmings, Dennis Kappei, Alison Wright, Mathias Ziegler, and Gossmann, Toni I. n.d. <span>“<span>D</span>e-Novo Synthesis of <span>NAD</span> Is Facilitated by <span>QAPRT</span> in Birds.”</span>
-</div>
-<div id="ref-Shafiey2017" class="csl-entry">
-Shafiey, Hassan, Gossmann, Toni I, and David Waxman. 2017. <span>“<span>E</span>volutionary Control: <span>T</span>argeted Change of Allele Frequencies in Natural Populations Using Externally Directed Evolution.”</span> <em>Journal of Theoretical Biology</em> 419: 362–74. <a href="https://doi.org/10.1016/j.jtbi.2017.01.023">https://doi.org/10.1016/j.jtbi.2017.01.023</a>.
+12. Gossmann, Toni I, Ziegler, M., Puntervoll, P., de Figueiredo, L. F., Schuster, S., &amp; Heiland, I. (2012). <span>T</span>wo new perspectives on <span>NAD</span> metabolism. <em>GCB 2012 Highlight Abstracts</em>, 5.
 </div>
 <div id="ref-Gossmann2018b" class="csl-entry">
-Toni I. Gossmann, Mathias Bockwoldt, Lilith Diringer, Friedrich Schwarz, and Vic-Fabienne Schumann. 2018. <span>“<span>E</span>vidence for <span>S</span>trong <span>F</span>ixation <span>B</span>ias at 4-Fold <span>D</span>egenerate <span>S</span>ites <span>A</span>cross <span>G</span>enes in the <span>G</span>reat <span>T</span>it <span>G</span>enome.”</span> <em>Frontiers in Ecology and Evolution</em> 6. <a href="https://doi.org/10.3389/fevo.2018.00203">https://doi.org/10.3389/fevo.2018.00203</a>.
+13. Toni I. Gossmann, Bockwoldt, M., Diringer, L., Schwarz, F., &amp; Schumann, V.-F. (2018). <span>E</span>vidence for <span>S</span>trong <span>F</span>ixation <span>B</span>ias at 4-fold <span>D</span>egenerate <span>S</span>ites <span>A</span>cross <span>G</span>enes in the <span>G</span>reat <span>T</span>it <span>G</span>enome. <em>Frontiers in Ecology and Evolution</em>, <em>6</em>. <a href="https://doi.org/10.3389/fevo.2018.00203">https://doi.org/10.3389/fevo.2018.00203</a>
 </div>
-<div id="ref-Gossmann2020" class="csl-entry">
-Toni I. Gossmann, and Markus Ralser. 2020. <span>“Marmota Marmota.”</span> <em>Trends in Genetics</em>. <a href="https://doi.org/10.1016/j.tig.2020.01.006">https://doi.org/10.1016/j.tig.2020.01.006</a>.
+<div id="ref-Afanasyeva2018" class="csl-entry">
+14. Afanasyeva, A., Bockwoldt, M., Cooney, C. R., Heiland, I., &amp; Gossmann, Toni I. (2018). <span>H</span>uman long intrinsically disordered protein regions are frequent targets of positive selection. <em>Genome Research</em>, <em>28</em>, 975–982. <a href="https://doi.org/10.1101/gr.232645.117">https://doi.org/10.1101/gr.232645.117</a>
 </div>
-<div id="ref-Gossmann2019" class="csl-entry">
-Toni I. Gossmann, Achchuthan Shanmugasundram, Stefan Börno, Ludovic Duvaux, Christophe Lemaire, Heiner Kuhl, Sven Klages, et al. 2019. <span>“<span>I</span>ce-<span>A</span>ge <span>C</span>limate <span>A</span>daptations <span>T</span>rap the <span>A</span>lpine <span>M</span>armot in a <span>S</span>tate of <span>L</span>ow <span>G</span>enetic <span>D</span>iversity.”</span> <em>Current Biology</em>. <a href="https://doi.org/10.1016/j.cub.2019.04.020">https://doi.org/10.1016/j.cub.2019.04.020</a>.
+<div id="ref-Corcoran2017" class="csl-entry">
+15. Corcoran, P., Gossmann, Toni I, Barton, H. J., Slate, J., &amp; Zeng, K. (2017). <span>D</span>eterminants of the efficacy of natural selection on coding and noncoding variability in two passerine species. <em>Genome Biology and Evolution</em>.
 </div>
-<div id="ref-Yusuf_2020" class="csl-entry">
-Yusuf, Leeban, Matthew C. Heatley, Joseph P. G. Palmer, Henry J. Barton, Christopher R. Cooney, and Toni I. Gossmann. 2020. <span>“Noncoding Regions Underpin Avian Bill Shape Diversification at Macroevolutionary Scales.”</span> <em>Genome Research</em>. <a href="https://doi.org/10.1101/gr.255752.119">https://doi.org/10.1101/gr.255752.119</a>.
+<div id="ref-deFigueiredo2011" class="csl-entry">
+16. de Figueiredo, L. F., Gossmann, Toni I, Ziegler, M., &amp; Schuster, S. (2011). <span>P</span>athway analysis of <span>NAD</span>+ metabolism. <em>Biochemical Journal</em>, <em>439</em>, 341–348. <a href="https://doi.org/10.1042/BJ20110320">https://doi.org/10.1042/BJ20110320</a>
+</div>
+<div id="ref-Hildebrand2019" class="csl-entry">
+17. Hildebrand, F., Moitinho-Silva, L., Blasche, S., Jahn, M. T., Toni I Gossmann, Huerta-Cepas, J., Hercog, R., Luetge, M., Bahram, M., Pryszlak, A., Alves, R. J., Waszak, S. M., Zhu, A., Ye, L., Costea, P. I., Aalvink, S., Belzer, C., Forslund, S. K., Sunagawa, S., … Bork, P. (2019). <span>A</span>ntibiotics-induced monodominance of a novel gut bacterial order. <em>Gut</em>, gutjnl-2018-317715. <a href="https://doi.org/10.1136/gutjnl-2018-317715">https://doi.org/10.1136/gutjnl-2018-317715</a>
+</div>
+<div id="ref-Kappei2017" class="csl-entry">
+18. Kappei, D., Scheibe, M., Paszkowski-Rogacz, M., Bluhm, A., Gossmann, Toni I., Dietz, S., Dejung, M., Herlyn, H., Buchholz, F., Mann, M., &amp; Butter, F. (2017). <span>P</span>hylointeractomics reconstructs functional evolution of protein binding. <em>Nature Communications</em>, <em>8</em>, 14334. <a href="https://doi.org/10.1038/ncomms14334">https://doi.org/10.1038/ncomms14334</a>
+</div>
+<div id="ref-Karr2019" class="csl-entry">
+19. Karr, T. L., Southern, H., Rosenow, M. A., Toni I. Gossmann, &amp; Snook, R. R. (2019). <span>T</span>he old and the new: Discovery proteomics identifies putative novel seminal fluid proteins in <span>D</span>rosophila. <em>Molecular <span>&amp;</span> Cellular Proteomics</em>, mcp.RA118.001098. <a href="https://doi.org/10.1074/mcp.ra118.001098">https://doi.org/10.1074/mcp.ra118.001098</a>
+</div>
+<div id="ref-Laine2019" class="csl-entry">
+20. Laine, V. N., Gossmann, Toni I, Oers, K. van, Visser, M. E., &amp; Groenen, M. A. M. (2019). <span>E</span>xploring the unmapped <span>DNA</span> and <span>RNA</span> reads in a songbird genome. <em>BMC Genomics</em>, <em>20</em>, 19. <a href="https://doi.org/10.1186/s12864-018-5378-2">https://doi.org/10.1186/s12864-018-5378-2</a>
+</div>
+<div id="ref-Laine2016" class="csl-entry">
+21. Laine, V. N., Gossmann, Toni I, Schachtschneider, K. M., Garroway, C. J., Madsen, O., Verhoeven, K. J. F., Jager, V. de, Megens, H.-J., Warren, W. C., Minx, P., Crooijmans, R. P. M. A., Corcoran, P., Consortium, G. T. H., Sheldon, B. C., Slate, J., Zeng, K., Oers, K. van, Visser, M. E., &amp; Groenen, M. A. M. (2016). <span>E</span>volutionary signals of selection on cognition from the great tit genome and methylome. <em>Nature Communications</em>, <em>7</em>, 10474. <a href="https://doi.org/10.1038/ncomms10474">https://doi.org/10.1038/ncomms10474</a>
+</div>
+<div id="ref-Lau2010" class="csl-entry">
+22. Lau, C., Dölle, C., Gossmann, Toni I, Agledal, L., Niere, M., &amp; Ziegler, M. (2010). <span>I</span>soform-specific targeting and interaction domains in human nicotinamide mononucleotide adenylyltransferases. <em>Journal of Biological Chemistry</em>, <em>285</em>, 18868–18876. <a href="https://doi.org/10.1074/jbc.M110.107631">https://doi.org/10.1074/jbc.M110.107631</a>
+</div>
+<div id="ref-Niere2018" class="csl-entry">
+23. Niere, M., Heiland, I., Hildebrand, F., Laine, V. N., Hemmings, N., Kappei, D., Wright, A., Ziegler, M., &amp; Gossmann, Toni I. (n.d.). <em><span>D</span>e-novo synthesis of <span>NAD</span> is facilitated by <span>QAPRT</span> in birds.</em>
+</div>
+<div id="ref-Shafiey2017" class="csl-entry">
+24. Shafiey, H., Gossmann, Toni I, &amp; Waxman, D. (2017). <span>E</span>volutionary control: <span>T</span>argeted change of allele frequencies in natural populations using externally directed evolution. <em>Journal of Theoretical Biology</em>, <em>419</em>, 362–374. <a href="https://doi.org/10.1016/j.jtbi.2017.01.023">https://doi.org/10.1016/j.jtbi.2017.01.023</a>
 </div>
 <div id="ref-Zhao2016" class="csl-entry">
-Zhao, Lei, Toni I Gossmann, and David Waxman. 2016. <span>“<span>A</span> Modified <span>W</span>right-<span>F</span>isher Model That Incorporates <span>N</span>e: <span>A</span> Variant of the Standard Model with Increased Biological Realism and Reduced Computational Complexity.”</span> <em>Journal of Theoretical Biology</em> 393: 218–28. <a href="https://doi.org/10.1016/j.jtbi.2016.01.002">https://doi.org/10.1016/j.jtbi.2016.01.002</a>.
+25. Zhao, L., Toni I Gossmann, &amp; Waxman, D. (2016). <span>A</span> modified <span>W</span>right-<span>F</span>isher model that incorporates <span>N</span>e: <span>A</span> variant of the standard model with increased biological realism and reduced computational complexity. <em>Journal of Theoretical Biology</em>, <em>393</em>, 218–228. <a href="https://doi.org/10.1016/j.jtbi.2016.01.002">https://doi.org/10.1016/j.jtbi.2016.01.002</a>
+</div>
+<div id="ref-Bockwoldt2019" class="csl-entry">
+26. Bockwoldt, M., Houry, D., Niere, M., Gossmann, Toni I., Reinartz, I., Schug, A., Ziegler, M., &amp; Heiland, I. (2019). Identification of evolutionary and kinetic drivers of NAD-dependent signaling. <em>Proceedings of the National Academy of Sciences of the United States of America</em>. <a href="https://doi.org/10.1073/pnas.1902346116">https://doi.org/10.1073/pnas.1902346116</a>
+</div>
+<div id="ref-Gossmann2016" class="csl-entry">
+27. Gossmann, Toni I., Saleh, D., Schmid, M. W., Spence, M. A., &amp; Schmid, K. J. (2016). Transcriptomes of plant gametophytes have a higher proportion of rapidly evolving and young genes than sporophytes. <em>Molecular Biology and Evolution</em>, <em>33</em>, 1669–1678. <a href="https://doi.org/10.1093/molbev/msw044">https://doi.org/10.1093/molbev/msw044</a>
+</div>
+<div id="ref-Kinsella2019" class="csl-entry">
+28. Kinsella, C. M., Ruiz-Ruano, F. J., Dion-Côté, A.-M., Charles, A. J., Gossmann, T. I., Cabrero, J., Kappei, D., Hemmings, N., Simons, M. J. P., Camacho, J. P. M., Forstmeier, W., &amp; Suh, A. (2019). Programmed <span>DNA</span> elimination of germline development genes in songbirds. <em>Nature Communications</em>, <em>10</em>(1). <a href="https://doi.org/10.1038/s41467-019-13427-4">https://doi.org/10.1038/s41467-019-13427-4</a>
+</div>
+<div id="ref-Gossmann2020" class="csl-entry">
+29. Toni I. Gossmann, &amp; Ralser, M. (2020). Marmota marmota. <em>Trends in Genetics</em>. <a href="https://doi.org/10.1016/j.tig.2020.01.006">https://doi.org/10.1016/j.tig.2020.01.006</a>
+</div>
+<div id="ref-Yusuf_2020" class="csl-entry">
+30. Yusuf, L., Heatley, M. C., Palmer, J. P. G., Barton, H. J., Cooney, C. R., &amp; Toni I. Gossmann. (2020). Noncoding regions underpin avian bill shape diversification at macroevolutionary scales. <em>Genome Research</em>. <a href="https://doi.org/10.1101/gr.255752.119">https://doi.org/10.1101/gr.255752.119</a>
 </div>
 </div>
 
+<p style="text-align:right">2021 Gossmann Lab.</p>
 
 
 
