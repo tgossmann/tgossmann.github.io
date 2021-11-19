@@ -1,0 +1,29 @@
+---
+title: "PhD student"
+output:
+  html_document:
+    df_print: paged
+---
+
+**Yu-Chi Chen**
+
+My research interests are to explore 1) what might be involved in phylogenetic lineages differentiation and 2) the molecular basis of phenotypic adaptation to environmental stress. 
+
+My PhD  project at the EvoGen lab is to study the role of epigenetics in hybrid formation and lineage differentiation using great tit (*Parus major*) as the model species.
+
+<div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0001-8787-0700" href="https://orcid.org/0000-0001-8787-0700" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">https://orcid.org/0000-0001-8787-0700</a></div>
+
+[ResearchGate](https://www.researchgate.net/profile/Yu-Chi-Chen-2)
+
+<img src="fotos/yu-chi.jpg" style="width:100%">
+
+
+
+
+**Previous research experience**
+
+In my bachelor, I studied the function of guttation using lady's-mantle (*Alchemilla mollis*) and started to explore the genes involved in ionoregulation in embryonic cuttlefish (*Sepia pharaonis*).
+
+For my master studies, I continued my interests in cuttlefish adaptability to examine its physiological responses under ocean acidification.
+
+From 2016-2021, I was a research assistant in Dr. Chih-Ming Hung's lab and have worked on two research projects: ecological niche evolution in nuthatch and the genomic basis of avian phenotypic convergence. 
